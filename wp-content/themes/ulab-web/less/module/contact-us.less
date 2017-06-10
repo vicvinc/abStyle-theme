@@ -1,0 +1,227 @@
+.contact-us {
+	position: relative;
+	width: 100%;
+    // height: 100%;
+	margin-top: 60px;
+
+	.map-container {
+		width: 100%;
+        height: 534px;
+		background: #3c3c3c;
+        padding-top: 20px;
+        padding-bottom: 26px;
+	}
+
+    .map {
+        position: relative;
+        height: 100%;
+        width: 1202px;
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        position: relative;
+    	width: 100%;
+    	background: #ddd;
+        height: 266px;
+    }
+
+    .info-wrap {
+        position: relative;
+    	margin: 0 150px;
+        color: #898989;
+        height: 100%;
+
+        @media screen and (max-width: 1440px) {
+            margin: 0 60px;
+        }
+    	.contacts {
+            display: table;
+            position: relative;
+            width: 100%;
+            height: 200px;
+            margin: 0 auto;
+            border-bottom: 1px solid #8a8a8a;
+    	}
+    	.footer {
+    		width: 100%;
+            font-size: 16px;
+            line-height: 66px;
+    		text-align: center;
+    	}
+    }
+
+    .l-link {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        .middle {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .link-wrap {
+            display: table;
+            &>* {
+                display: table-cell;
+                vertical-align: middle;
+            }
+            .devide {
+                padding: 0 25px;
+                font-size: 35px;
+                line-height: 55px;
+                color: #646464;
+            }
+        }
+    }
+
+    .r-link {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+    	.h1 {
+    		font-size: 32px;
+    		color: #3c3c3c;
+    	}
+    	.devide {
+    		margin-top: 6px;
+    		width: 34px;
+    		border-bottom: 4px solid #3c3c3c;
+    	}
+    	.link-wrap {
+    		margin-top: 20px;
+    		list-style: none;
+    		.link-item {
+    			font-size: 20px;
+    			line-height: 30px;
+    		}
+    		.f-a {
+    			color: #898989;
+    			text-decoration: none;
+                &:hover {
+                    color: #3c3c3c;
+                }
+    		}
+    	}
+    }
+
+    .d-link {
+        display: table;
+        padding: 26px 0;
+        max-width: 596px;
+        margin: 0 auto;
+        &>* {
+            table-layout: fixed;
+            display: table-cell;
+            height: 100%;
+        }
+    	.link-cell {
+            vertical-align: top;
+            width: 192px;
+            padding: 0 4px;
+    	}
+    	.cell-devide {
+            vertical-align: middle;
+            .devide {
+                height: 58px;
+                border-right: 3px solid #646464;
+            }
+    	}
+    }
+    .nav-brand {
+    	width: 180px;
+    	height: 55px;
+    	background: url(../images/footer-brand.png) /cover no-repeat;
+    }
+    .btn-weibo {
+    	width: 57px;
+    	height: 57px;
+        cursor: pointer;
+        background: url(../images/btn_weibo_h.png) /cover no-repeat;
+    	&:hover {
+            background: url(../images/btn_weibo_n.png) /cover no-repeat;
+    	}
+    }
+    .i-link {
+    	display: block;
+	    margin-bottom: 28px;
+    	width: 75px;
+    	height: 75px;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+        top: 0;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        @media screen and (max-width: 1440px) {
+            margin-bottom: 14px;
+        }
+    }
+    .info-hack {
+        margin-bottom: 18px;
+    }
+    .link-info {
+        display: block;
+    	width: 100%;
+    	text-align: center;
+    	font-size: 20px;
+    	line-height: 26px;
+        text-decoration: none;
+        color: #646464;
+    }
+    .phone {
+    	background: url(../images/ic_phone.png);
+    }
+    .email {
+    	background: url(../images/ic_email.png);
+    }
+    .address {
+    	background: url(../images/ic_address.png);
+    }
+}
+.weibo-pop {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(93, 94, 94, 0.6);
+    z-index: 2000;
+    .pop-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .qr-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 238px;
+        height: 264px;
+
+        background: #fff;
+        .weibo-qr-code {
+            width: 200px;
+            height: 200px;
+            margin: 18px auto;
+            background: url(../images/weibo-QR.png) / cover no-repeat;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .tips {
+            text-align: center;
+            font-family: @font-yahei;
+            color: #898989;
+            font-size: 16px;
+            font-weight: 400;
+            &:hover {
+                color: #3c3c3c;
+                cursor: pointer;
+            }
+        }
+    }
+}

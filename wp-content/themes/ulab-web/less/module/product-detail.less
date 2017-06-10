@@ -1,0 +1,109 @@
+.product-list-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    .product-tab {
+        width: 100%;
+        display: table;
+        align-items: middle;
+        // justify-content: space-around;
+        margin-top: 110px;
+        height: 178px;
+        .tab {
+            height: 100%;
+            display: table-cell;
+            // justify-content: center;
+            align-items: middle;
+        }
+        .selected {
+            font-weight: bold;
+        }
+    }
+    .nav-product {
+        width: 100%;
+        margin-top: 130px;
+        // margin-left: 50%;
+        // transform: translate(-50%, 0);
+        color: #3c3c3c;
+        .nav-wrapper {
+            width: 720px;
+            margin: 0 auto;
+            list-style: none;
+            display: table;
+        }
+        .nav-tab {
+            width: 130px;
+            height: 45px;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            line-height: 45px;
+        }
+        .nav-link {
+            font-family: @font-simsun;
+            text-decoration: none;
+            color: #3c3c3c;
+            font-size: 18px;
+            padding: 0 15px;
+            cursor: pointer;
+        }
+        .active {
+            background: #3c3c3c;
+            color: #fff;
+            font-weight: 400;
+        }
+    }
+    @media screen and (max-width: 1440px){
+        .nav-product{
+            margin-top: 100px;
+        }
+    }
+    .product-content {
+        margin: 100px 0;
+        width: 100%;
+        .content-wrap {
+            display: none;
+            // width: 100%;
+            margin: 0 60px;
+        }
+        .content-group {
+            display: table;
+            margin: 0 auto;
+            .clearfix;
+            .item {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+
+                &:not(:last-child) {
+                    padding-right: 10px;
+                }
+                .item-img {
+                    display: inline-block;
+                    width: 100%;
+                    height: auto;
+                    // max-width: 430px;
+                    // max-height: 530px;
+                    border-radius: 18px;
+                    &:hover {
+                        box-shadow: 0 0 15px 0 rgba(113, 113, 113, 0.5);
+                        transition: all .3s ease-in;
+                    }
+                }
+                @media screen and (max-width: 1440px) {
+                    .item-img {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+                .content-show {
+        }
+    }
+    @media screen and (max-width: 1440px) {
+        .product-content {
+            margin-top: 60px;
+        }
+    }
+}

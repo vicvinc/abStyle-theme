@@ -1,0 +1,193 @@
+.blog-carousel {
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+
+    .blog-carousel-wrapper {
+        position: relative;
+        width: 100%;
+    }
+    
+    .blog-list {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+    }
+
+    .blog-item {
+        outline: none;
+        position: relative;
+        float: left;
+        height: 50%;
+        width: 33.33%;
+        overflow: hidden;
+
+        color: #575757;
+        background: #ececec;
+
+        &:nth-child(6n+2),
+        &:nth-child(6n+4),
+        &:nth-child(6n+6) {
+            background: #7d7d7d;
+            color: #fff;
+        }
+
+        &:hover {
+            color: #fff;
+        }
+
+        .bg-mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            cursor: pointer;
+            &:hover {
+                background: rgba(34, 23, 23, 0.2);
+            }
+        }
+
+        .bg-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            transform: scale(1);
+            transition: transform .8s ease-in;
+
+            padding: 0px;
+        }
+
+        .bg-zoom {
+            transform: scale(1.05);
+            transition: transform .8s ease-in;
+        }
+
+        .article {
+            position: relative;
+            padding: 28px 30px;
+            max-height: 100%;
+            z-index: 100;           
+            overflow: hidden;
+        }
+
+        .date {
+            max-width: 100%;
+        }
+
+        .detail {
+
+            padding-top: 8px;
+            line-height: 1.2;
+            max-height: 130px;
+            max-width: 100%;
+
+            white-space: pre-line;
+            word-break: break-word;
+            word-break: break-all;
+            word-wrap: break-word;
+            
+            @media screen and (max-width: 1440px) {
+                max-height: 84px;
+            }
+        }
+
+        .post-intro {
+            max-height: 150px;
+            @media screen and (max-width: 1440px) {
+                max-height: 84px;
+            }
+        }
+
+        .separate {
+            display: inline-block;
+            width: 57px;
+            height: 16px;
+            border-top: 5px;
+            border-left: 2px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-style: solid;
+        }
+    }
+
+    .btn-pagenation {
+        position: absolute;
+        // top: 50%;
+        right: 100px;
+        width: 100px;
+        height: 100px;
+        transform: translate(0, -50%);
+        background-size: cover;
+        z-index: 400;
+        cursor: pointer;
+        -moz-user-select:none;
+    }
+    .btn-prev {
+        left: 30px;
+        background: url(../images/btn-prev.png);
+    }
+    .btn-next {
+        right: 30px;
+        background: url(../images/btn-next.png);
+    }
+}
+
+.blog-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(90, 90, 90, 0.7) none repeat scroll 0% 0%;
+    z-index: 1100;
+    .modal-wrap {
+        position: relative;
+        margin: 0 auto;
+        width: 1028px;
+        height: 100%;
+        .close-btn {
+            position: absolute;
+            left: 50%;
+            top: 82px;
+            margin-left: 514px;
+            width: 42px;
+            height: 42px;
+            cursor: pointer;
+        }
+        .i-close {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url(../images/btn_close_n.png) /cover no-repeat center center;
+            &:hover {
+                background: url(../images/btn_close_h.png) /cover no-repeat center center;
+            }
+        }
+        .modal-content {
+            height: 100%;
+            overflow: scroll;
+            background: #fff;
+        }
+    }
+}
+
+.blog-modal-trans {
+    display: block;
+    transform: translate(-10rem, 0);
+}
+
+.z0 {
+    z-index: 0;
+}

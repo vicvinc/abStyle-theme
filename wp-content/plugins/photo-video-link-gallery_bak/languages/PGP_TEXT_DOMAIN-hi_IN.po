@@ -1,0 +1,409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Photo-gallery-plugin-pro\n"
+"POT-Creation-Date: 2015-05-08 13:49+0530\n"
+"PO-Revision-Date: 2015-05-08 13:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:70
+msgid "Transition Effect"
+msgstr "संक्रमण प्रभाव"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:74
+msgid "Effect 1"
+msgstr "प्रभाव 1"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:78
+msgid "Choose an animation effect apply on images after mouse hover."
+msgstr "ऐनिमेशन प्रभाव के बाद माउस मंडराना छवियों पर लागू करें का चयन करें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:84
+msgid "Animation"
+msgstr "एनीमेशन"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:88
+msgid "Left to Right"
+msgstr "बाएं से दाएं"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:89
+msgid "Right to Left"
+msgstr "दाएं से बाएं"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:90
+msgid "Top to Bottom"
+msgstr "ऊपर से नीचे"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:91
+msgid "Bottom to Top"
+msgstr "नीचे से ऊपर"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:95
+msgid "Choose Animation style."
+msgstr "एनीमेशन शैली चुनें ।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:101 ../tooltip.php:42
+msgid "Image Hover Color"
+msgstr "हल्के रंग थीम"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:104
+msgid "Color1"
+msgstr "रंग1"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:105
+msgid "Color2"
+msgstr "रंग2"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:106
+msgid "Color3"
+msgstr "रंग3"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:108
+msgid "Select any color to apply on image gallery."
+msgstr "छवि गैलरी पर लागू करने के लिए किसी रंग का चयन करें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:109
+#: ../Photo-Gallery-Setting-Meta-Box.php:122
+#: ../Photo-Gallery-Setting-Meta-Box.php:135
+#: ../Photo-Gallery-Setting-Meta-Box.php:152
+#: ../Photo-Gallery-Setting-Meta-Box.php:196
+#: ../Photo-Gallery-Setting-Meta-Box.php:212
+#: ../Photo-Gallery-Setting-Meta-Box.php:225
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:115
+msgid "Show Gallery Title"
+msgstr "विजेट हैडर दिखाएँ "
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:121
+msgid "Select Yes/No option to hide or show gallery title."
+msgstr "हाँ/नहीं छुपाएँ या दिखाएँ गैलरी शीर्षक करने के लिए विकल्प का चयन करें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:128
+msgid "Show Image Label"
+msgstr "विजेट हैडर दिखाएँ "
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:134
+msgid "Select Yes/No option to hide or show label on image."
+msgstr "हाँ/नहीं छुपाना या लेबल पर छवि दिखाने के लिए विकल्प का चयन करें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:141 ../tooltip.php:57
+msgid "Gallery Layout"
+msgstr "सामाजिक मीडिया चिह्न लेआउट"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:146
+msgid "Two Column"
+msgstr "दो कॉलम"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:147
+msgid "Three Column"
+msgstr "तीन कॉलम"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:151
+msgid "Choose a column layout for image gallery."
+msgstr "छवि गैलरी के लिए एक स्तंभ लेआउट का चयन करें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:158
+msgid "Open Link"
+msgstr "खुली लिंक"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:161
+msgid "In Same Tab"
+msgstr "एक ही टैब में"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:162
+msgid "In New Tab"
+msgstr "नए टैब में"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:164
+msgid "Select option to open link in save tab or in new tab."
+msgstr "टैब को बचाने में या नए टैब में लिंक को खोलने के लिए विकल्प का चयन करें ।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:170 ../tooltip.php:67
+msgid "Font Style"
+msgstr "फ़ॉन्ट शैली"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:195
+msgid "Choose a caption font style."
+msgstr "एक शीर्षक फ़ॉन्ट शैली चुनें ।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:202 ../tooltip.php:62
+#: ../tooltip.php:72
+msgid "Light Box Styles"
+msgstr "लाइट बॉक्स शैलियाँ"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:211
+msgid "Choose an image Title style."
+msgstr "एक छवि शीर्षक शैली चुनें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:218 ../tooltip.php:77
+msgid "Image Border"
+msgstr "छवि सीमा"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:224
+msgid "Select Yes/No option to apply border on portfolio image thumbnails."
+msgstr "पोर्टफोलियो छवि थंबनेल पर सीमा लागू करने के लिए हां / नहीं विकल्प चुनें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:231
+msgid "Custom CSS"
+msgstr "कस्टम सीएसएस"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:235
+msgid "Enter any custom css you want to apply on this gallery."
+msgstr "आप इस गैलरी पर लागू करना चाहते हैं किसी भी कस्टम सीएसएस दर्ज करें।"
+
+#: ../Photo-Gallery-Setting-Meta-Box.php:236
+msgid "Note: Please Do Not Use <b>Style</b> Tag With Custom CSS."
+msgstr "नोट : कस्टम सीएसएस के साथ <b > शैली </ b> टैग का प्रयोग न करें ।"
+
+#: ../Photo-Gallery-pro.php:155 ../Photo-Gallery-pro.php:156
+#: ../Photo-Gallery-pro.php:167 ../Photo-Gallery-pro.php:197
+msgid "Photo Gallery"
+msgstr "फोटो गैलरी"
+
+#: ../Photo-Gallery-pro.php:157 ../Photo-Gallery-pro.php:158
+msgid "Add New Gallery"
+msgstr "नई गैलरी में जोड़ें"
+
+#: ../Photo-Gallery-pro.php:159
+msgid "Edit Photo Gallery"
+msgstr "संपादन फोटो गैलरी"
+
+#: ../Photo-Gallery-pro.php:160
+msgid "New Gallery"
+msgstr "नई गैलरी"
+
+#: ../Photo-Gallery-pro.php:161
+msgid "View Gallery"
+msgstr "गैलरी देखें"
+
+#: ../Photo-Gallery-pro.php:162
+msgid "Search Gallery"
+msgstr "खोज गैलरी"
+
+#: ../Photo-Gallery-pro.php:163 ../Photo-Gallery-pro.php:486
+msgid "No Gallery found"
+msgstr "कोई गैलरी नही पाया"
+
+#: ../Photo-Gallery-pro.php:164
+msgid "No Gallery found in Trash"
+msgstr "कोई गैलरी कचरे में पाया"
+
+#: ../Photo-Gallery-pro.php:165
+msgid "Parent Photo Gallery:"
+msgstr "पैरेंट फोटो गैलरी:"
+
+#: ../Photo-Gallery-pro.php:166
+msgid "All Photo Gallery"
+msgstr "सभी फोटो गैलरी"
+
+#: ../Photo-Gallery-pro.php:198 ../Photo-Gallery-pro.php:218
+#: ../Photo-Gallery-pro.php:450
+msgid "Photo Gallery Shortcode"
+msgstr "फोटो गैलरी शोर्ट"
+
+#: ../Photo-Gallery-pro.php:199
+msgid "Date"
+msgstr "तिथि"
+
+#: ../Photo-Gallery-pro.php:216
+msgid "Add Images"
+msgstr "छवियां जोड़ें"
+
+#: ../Photo-Gallery-pro.php:217
+msgid "Apply Setting On Photo Gallery"
+msgstr "फोटो गैलरी पर सेटिंग लागू"
+
+#: ../Photo-Gallery-pro.php:253 ../Photo-Gallery-pro.php:327
+msgid "Image"
+msgstr "छवि"
+
+#: ../Photo-Gallery-pro.php:254 ../Photo-Gallery-pro.php:328
+msgid "Video"
+msgstr "वीडियो"
+
+#: ../Photo-Gallery-pro.php:255 ../Photo-Gallery-pro.php:274
+#: ../Photo-Gallery-pro.php:329 ../Photo-Gallery-pro.php:346
+msgid "Link"
+msgstr "लिंक"
+
+#: ../Photo-Gallery-pro.php:267 ../Photo-Gallery-pro.php:339
+msgid "Label"
+msgstr "लेबल"
+
+#: ../Photo-Gallery-pro.php:271 ../Photo-Gallery-pro.php:343
+msgid "Video URL"
+msgstr "वीडियो यूआरएल"
+
+#: ../Photo-Gallery-pro.php:271 ../Photo-Gallery-pro.php:343
+msgid "Help"
+msgstr "मदद"
+
+#: ../Photo-Gallery-pro.php:291
+msgid "Add New Media"
+msgstr "न्यू मीडिया जोड़ें"
+
+#: ../Photo-Gallery-pro.php:307
+msgid "Use below shortcode in any Page/Post to publish your photo gallery"
+msgstr "किसी भी पृष्ठ में शोर्ट- नीचे का प्रयोग करें / पोस्ट आपके फोटो गैलरी प्रकाशित करने के लिए"
+
+#: ../Photo-Gallery-pro.php:446 ../Photo-Gallery-pro.php:447
+msgid "Select Photo Gallery to insert into post"
+msgstr "पोस्ट में डालने के लिए फोटो गैलरी प्रो चयन करें"
+
+#: ../Photo-Gallery-pro.php:468
+msgid "Select Photo Gallery To Insert Into Post"
+msgstr "पोस्ट में डालने के लिए फोटो गैलरी का चयन करें"
+
+#: ../Photo-Gallery-pro.php:483
+msgid "Insert Photo Gallery Shortcode"
+msgstr "सम्मिलित करें फोटो गैलरी शोर्ट"
+
+#: ../tooltip.php:37
+msgid "Image Layout"
+msgstr "पृष्ठभूमि छवि"
+
+#: ../tooltip.php:47
+msgid "Gallery Title"
+msgstr "शीर्षक"
+
+#: ../tooltip.php:52
+msgid "Image Label"
+msgstr "पृष्ठभूमि छवि"
+
+#: ../tooltip.php:82
+msgid "Image Border Size"
+msgstr "छवि सीमा आकार"
+
+#: ../tooltip.php:87
+msgid "Image Border Color"
+msgstr "छवि बॉर्डर रंग"
+
+#: ../tooltip.php:92
+msgid "Masonry Thumbnails"
+msgstr "चिनाई थंबनेल"
+
+#~ msgid "Effect 2"
+#~ msgstr "प्रभाव 2"
+
+#~ msgid "Effect 3"
+#~ msgstr "प्रभाव 3"
+
+#~ msgid "Effect 4"
+#~ msgstr "प्रभाव 4"
+
+#~ msgid "Effect 5"
+#~ msgstr "प्रभाव 5"
+
+#~ msgid "Effect 6"
+#~ msgstr "प्रभाव 6"
+
+#~ msgid "Effect 7"
+#~ msgstr "प्रभाव 7"
+
+#~ msgid "Effect 8"
+#~ msgstr "प्रभाव 8"
+
+#~ msgid "Effect 9"
+#~ msgstr "प्रभाव 9"
+
+#~ msgid "Effect 10"
+#~ msgstr "प्रभाव 10"
+
+#~ msgid "Effect 11"
+#~ msgstr "प्रभाव 11"
+
+#~ msgid "Effect 12"
+#~ msgstr "प्रभाव 12"
+
+#~ msgid "Effect 13"
+#~ msgstr "प्रभाव 13"
+
+#~ msgid "Effect 14"
+#~ msgstr "प्रभाव 14"
+
+#~ msgid "Effect 15"
+#~ msgstr "प्रभाव 15"
+
+#~ msgid "Effect 16"
+#~ msgstr "प्रभाव 16"
+
+#~ msgid "Effect 17"
+#~ msgstr "प्रभाव 17"
+
+#~ msgid "Effect 18"
+#~ msgstr "प्रभाव 18"
+
+#~ msgid "Effect 19"
+#~ msgstr "प्रभाव 19"
+
+#~ msgid "Select Rectangle/Circle option to set album image style."
+#~ msgstr "आयत/सर्किल एल्बम छवि शैली सेट करने के लिए विकल्प का चयन करें।"
+
+#~ msgid "Four Column"
+#~ msgstr "चार स्तम्भ"
+
+#~ msgid "Color Opacity"
+#~ msgstr "रंग अपारदर्शिता"
+
+#~ msgid "Choose hover color opacity on images."
+#~ msgstr "छवियों पर हॉवर रंग पारदर्शिता चुनें ।"
+
+#~ msgid "Choose a image border size."
+#~ msgstr "एक छवि सीमा आकार चुनें।"
+
+#~ msgid "Select any color to apply on image border."
+#~ msgstr "छवि सीमा पर लागू करने के लिए किसी भी रंग का चयन करें।"
+
+#~ msgid "Photo Gallery Pro"
+#~ msgstr "फोटो गैलरी प्रो"
+
+#~ msgid "Photo Gallery Pro Shortcode"
+#~ msgstr "फोटो गैलरी प्रो शॉर्ट कोड"
+
+#~ msgid "Select Photo Gallery Pro To Insert Into Post"
+#~ msgstr "पोस्ट में डालने के लिए फोटो गैलरी प्रो चयन करें"
+
+#~ msgid "Scale Up"
+#~ msgstr "स्केल अप"
+
+#~ msgid "Scale Down"
+#~ msgstr "घटाना"
+
+#~ msgid "Scale Down Up"
+#~ msgstr "ऊपर नीचे पैमाने पर"
+
+#~ msgid "Rectangle"
+#~ msgstr "आयत"
+
+#~ msgid "Circle"
+#~ msgstr "गोला"
+
+#~ msgid "Set featured image"
+#~ msgstr "समूह के साथ छापा गया चित्र"
+
+#~ msgid "Set Album Cover"
+#~ msgstr "एल्बम सेट कवर"
+
+#~ msgid "Remove featured image"
+#~ msgstr "विशेष रुप से प्रदर्शित छवि निकालें"
+
+#~ msgid "Remove Album Cover"
+#~ msgstr "एल्बम कवर निकालें"
+
+#~ msgid "pppp"
+#~ msgstr "pppp"
+
+#~ msgid "Amination"
+#~ msgstr "एनीमेशन"
