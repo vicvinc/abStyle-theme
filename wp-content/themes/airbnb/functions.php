@@ -4,6 +4,7 @@
  */
 function _scripts() {
 	wp_enqueue_style('mainstyle', get_template_directory_uri() . '/css/style.css');
+	// wp_enqueue_style('typo', get_template_directory_uri() . '/css/typo.css');
 	wp_enqueue_script( '_dev', get_template_directory_uri() . '/js/airbnb.js', array('jquery', 'underscore'), '20170523',	true);
 	// array('jqueryb8ff', 'jquery-migrate.min330a', 'underscore.min4511', 'wp-util.minfe9d'),
 	// aibnb script enqueue end

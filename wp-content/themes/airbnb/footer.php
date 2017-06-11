@@ -5,12 +5,11 @@
 						<a class="twitter" href="https://twitter.com/airbnbdesign"><span>Twitter</span></a>
 						<a class="instagram" href="https://www.instagram.com/airbnbdesignteam"><span>Instagram</span></a>
 				</div>
-				<a href="http://nerds.airbnb.com/">Engineering &amp; Data Science</a>
-				<a href="about/index.html">About</a>
+				<a href="">Engineering &amp; Data Science</a>
+				<a href="/about">About</a>
 		</div>
 		<a class="copy" href="https://www.airbnb.com/" title="Airbnb, Inc." rel="home">&copy; Airbnb, Inc.</a>
 </footer>
-
 <?php wp_footer(); ?>
 </body>
 </html>
