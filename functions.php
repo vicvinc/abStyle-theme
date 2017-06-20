@@ -1,4 +1,6 @@
 <?php
+
+add_theme_support( 'post-thumbnails' );
 /**
  * Enqueue scripts and styles.
  */
