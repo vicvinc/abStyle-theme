@@ -1,7 +1,7 @@
-# airbnb wordpress copy
-## v1.0.1
+# abStyle wordpress theme
+## v0.0.1
 
-### [demon](http://gitnews.applinzi.com/)
+### [demon](http://demo-theme-wordpress.com/)
 
 ### config:
 > config custom pages with page-with-post
